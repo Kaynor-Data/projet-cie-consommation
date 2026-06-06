@@ -1,0 +1,63 @@
+# 1. Initialiser Git
+git init
+
+# 2. Ajouter tous les fichiers
+git add .
+
+# 3. Premier commit
+git commit -m "feat: analyse de consommation électrique - projet CIE"
+
+# 4. Connecter ton repo GitHub
+git remote add origin https://github.com/KaynorData/projet-cie-consommation.git
+
+# 5. Pousser
+git push -u origin main
+
+
+
+
+en cas d'érreur de compte ou plusisuer compte : 
+
+
+# Supprimer l'ancien remote
+git remote remove origin
+
+# Ajouter le bon
+git remote add origin https://github.com/KaynorData/projet-cie-consommation.git
+
+# Vérifier
+git remote -v
+
+
+Le fichier data est trop lourd pour GitHub
+
+# Créer le fichier .gitignore ou si vous en avez, ajouter cette partie : 
+
+
+echo "data/" > .gitignore
+echo "venv/" >> .gitignore
+echo "env/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.zip" >> .gitignore
+
+Puis retire le fichier data du suivi Git :
+
+git rm -r --cached data/
+
+ensuite 
+
+
+git add .
+git commit -m "fix: exclure data/ du repo - fichier trop lourd"
+
+⚠️ Avant de pousser
+Assure-toi d'être connecté avec le bon compte GitHub. Dans ton terminal :
+
+
+git config --global user.email "kaynordata@gmail.com"
+git config --global user.name "KaynorData"
+
+Ensuite :
+
+
+git push -u origin main
