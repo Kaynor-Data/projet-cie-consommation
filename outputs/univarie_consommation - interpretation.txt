@@ -1,0 +1,8 @@
+Graphique 1 — L'Histogramme (à gauche)
+
+La consommation est asymétrique à droite — on appelle ça une distribution asymétrique. La plupart du temps on consomme peu, mais quelques pics élevés tirent la moyenne vers le haut.
+
+
+Conlusion : 
+
+La consommation moyenne est de 1.09 kW mais la médiane à 0.6 kW indique que la distribution est asymétrique. La majorité des mesures se concentrent entre 0.3 et 1.5 kW. Des pics anormaux allant jusqu'à 11 kW ont été détectés — ces outliers méritent une investigation.

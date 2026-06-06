@@ -1,0 +1,72 @@
+Graphique 1 — Consommation moyenne par mois
+
+Ce que tu vois :
+
+Janvier et Décembre ont les barres les plus hautes (~1.45 kW)
+Juillet et Août ont les barres les plus basses (~0.6 kW)
+
+Interprétation :
+
+La consommation est plus élevée en hiver (Jan, Déc) et plus faible en été (Jul, Aoû). C'est logique — en hiver on utilise plus le chauffage électrique. C'est une maison en France, donc ce comportement est cohérent avec le climat.
+
+Ce que tu dirais à la CIE :
+
+En Côte d'Ivoire, le pic serait probablement en saison chaude (Mar-Avr) à cause des climatiseurs.
+
+
+
+Graphique 2 — Consommation par heure de la journée
+
+Ce que tu vois :
+
+De 0h à 5h → consommation très basse (~0.4 kW) — tout le monde dort
+Pic à 7h → réveil, douche, petit-déjeuner (~1.5 kW)
+De 8h à 17h → consommation stable (~1.2 kW) — journée normale
+Pic majeur à 20h-21h → retour à la maison, cuisine, TV (~1.9 kW)
+Chute à 23h → tout le monde se couche
+
+
+Interprétation :
+
+Il y a 2 pics de consommation dans la journée — matin et soir. C'est le comportement classique d'une maison résidentielle.
+
+Ce que tu dirais à la CIE :
+
+Ces pics sont critiques pour le réseau électrique — c'est aux heures de pointe que les coupures de courant arrivent.
+
+
+
+Graphique 3 — Consommation par jour de la semaine
+
+Ce que tu vois :
+
+Lundi à Vendredi → consommation stable (~1.0 kW)
+Samedi et Dimanche → consommation plus haute (~1.25 kW)
+
+
+Interprétation :
+
+Le week-end les gens restent à la maison — ils cuisinent plus, regardent plus la TV, utilisent plus d'appareils. La consommation augmente naturellement.
+
+
+
+Graphique 4 — Boxplot par mois
+
+
+Ce que tu vois :
+
+Janvier, Février, Mars → boîtes plus hautes, plus de variabilité
+Juillet, Août → boîtes plus basses, consommation concentrée
+Les points noirs au-dessus → outliers présents toute l'année
+
+
+Interprétation :
+
+En hiver la consommation est non seulement plus élevée mais aussi plus imprévisible — certains jours on chauffe beaucoup, d'autres moins. En été la consommation est faible et stable.
+
+
+
+Conclusion globale — ce que tu dirais en entreprise
+
+"L'analyse bivariée révèle 3 patterns clés : les pics de consommation sont concentrés en hiver (Dec-Jan), en soirée (20h-21h), et le week-end. Ces informations permettent à la CIE d'anticiper les pics de charge et de renforcer le réseau aux bons moments."
+
